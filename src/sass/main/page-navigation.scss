@@ -1,0 +1,40 @@
+.page-nav-list {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 95px;
+}
+
+.page-nav-item {
+  &:not(:last-child) {
+    margin-right: 113px;
+  }
+}
+.page-nav-link {
+  position: relative;
+  @include font-settings(1.8125rem, 1.2, 900, $first-font-color);
+  text-transform: uppercase;
+  transition-property: all;
+  transition-duration: 0.3s;
+  &:hover {
+    color: $second-font-color;
+  }
+}
+
+.item--decor-circle {
+  &::after {
+    position: absolute;
+    left: 187px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: $second-background-color;
+    display: block;
+    content: '';
+  }
+}
+.item--decor-firstcircle {
+  &::after {
+    left: 286px;
+  }
+}

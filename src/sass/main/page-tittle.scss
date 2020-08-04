@@ -1,0 +1,34 @@
+.page-tittle {
+  margin: 0 auto 50px;
+  text-align: center;
+}
+.first-line {
+  @include font-settings(7rem, 0.977, 800, $first-font-color);
+  text-transform: uppercase;
+}
+.second-line {
+  position: relative;
+  font-family: $second-font-family;
+  display: block;
+  @include font-settings(7rem, 0.977, 400, $second-font-color);
+  transform: translateY(-50px);
+
+  &::before {
+    width: 100px;
+    display: block;
+    content: '';
+    border-bottom: 4px solid $decor-color;
+    position: absolute;
+    top: 95px;
+    left: 59px;
+  }
+  &::after {
+    width: 100px;
+    display: block;
+    content: '';
+    border-bottom: 4px solid $decor-color;
+    position: absolute;
+    top: 95px;
+    right: 54px;
+  }
+}

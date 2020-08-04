@@ -1,0 +1,14 @@
+.contact {
+  width: 275px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-title {
+  @include font-settings(2rem, 1.2, 800, $first-font-color);
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.telefon {
+  @include font-settings(2rem, 1.2, 800, $second-font-color);
+}

@@ -1,0 +1,34 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize';
+@import './helpers/variables';
+@import './helpers/mixins';
+@import 'fonts';
+
+@import 'base';
+
+/*
+ * PAGE_NAV
+ */
+@import './components/social-button';
+
+@import './header/header';
+@import './header/logo';
+@import './header/contact';
+
+/*
+ * SECTIONS
+ */
+
+@import './main/page-section';
+@import './main/page-tittle';
+@import './main/page-navigation';
+@import './main/section-sub-titile';
+@import './main/content-image';
+
+/*
+ * FOOTER
+ */
+@import './footer/footer';

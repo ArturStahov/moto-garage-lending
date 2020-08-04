@@ -1,0 +1,33 @@
+.logo {
+  width: 280px;
+  position: relative;
+}
+
+.logo-linck {
+  width: 240px;
+  position: absolute;
+  top: -15px;
+  left: 6%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo-bg-image {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+}
+.logo-ico {
+  margin-right: 8px;
+}
+.logo-title {
+  @include font-settings(2rem, 0.826, 800, $black-font-color);
+  position: relative;
+}
+.logo-sub-title {
+  position: absolute;
+  top: 16px;
+  right: -25px;
+  font-family: $second-font-family;
+  @include font-settings(2rem, 0.826, 400, $first-font-color);
+}

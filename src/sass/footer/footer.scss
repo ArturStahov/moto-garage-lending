@@ -1,0 +1,10 @@
+.page-footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: $second-background-color;
+}
+.page-footer-title {
+  text-align: center;
+  @include font-settings(1.3rem, 2.2, 800, $black-font-color);
+  text-transform: uppercase;
+}

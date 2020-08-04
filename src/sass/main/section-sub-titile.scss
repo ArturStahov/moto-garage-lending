@@ -1,0 +1,13 @@
+.section-sub-titile {
+  margin: 0 auto;
+  text-align: center;
+  @include font-settings(2rem, 1, 800, $black-font-color);
+  text-transform: uppercase;
+  letter-spacing: 17px;
+  display: block;
+  width: 896px;
+  padding-top: 20px;
+  padding-bottom: 26px;
+  background-image: url('../images/bg/title-bg.png');
+  background-repeat: no-repeat;
+}
